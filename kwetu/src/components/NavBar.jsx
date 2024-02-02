@@ -13,15 +13,15 @@ function NavBar() {
             <li className="nav-item dropdown">
                 <a className="nav-link" href="#">What We Do</a>
                 <div className="dropdown-content">
-                    <NavLink to="/mission">hello</NavLink>
-        
+                    <NavLink to="/mission">Our Mission</NavLink>
+                    <NavLink to="/vision">Our Vision</NavLink>
                 </div>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/our-staff">Our Staff</NavLink>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">About Us</a>
+                <Link className="nav-link" to="/about">About</Link>
             </li>
         </ul>
     </div>
