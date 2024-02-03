@@ -2,7 +2,7 @@ import React from 'react';
 
 function OurStaff() {
   return (
-    <div>OurStaff</div>
+    <div className='staff'>OurStaff</div>
   )
 }
 

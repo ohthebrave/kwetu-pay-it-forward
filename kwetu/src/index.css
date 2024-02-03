@@ -58,3 +58,39 @@
   display: flex;
   justify-content: space-between;
 }
+
+.product-image{
+  /* border: 2px solid red; */
+  margin-top: 10px;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+div.polaroid {
+  /* width: 25%; */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px;
+  margin-left: 70px;
+}
+div.title {
+  text-align: center;
+  padding: 5px 10px;
+}
+.shopTitle {
+  margin: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+.mission-content{
+  /* border: 2px solid red; */
+  background-color: #91ddf6;
+}

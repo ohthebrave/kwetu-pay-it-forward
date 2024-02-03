@@ -1,9 +1,11 @@
 import React from "react";
+import '../App.css';
 
 function Mission() {
   return (
-    <div>
-      <h1>Missions</h1>
+    <div className="mission-content text-center">
+      <h1 className=" mission">Our Mission</h1>
+      <p className="fw-light fs-4 pb-5">To inspire and revolutionize young minds, setting in them a firm intellectual and <br/>innovative foundation, which will allow them the best versions of themselves.</p>
       <div>
         <h3>About the organization</h3>
         <p>

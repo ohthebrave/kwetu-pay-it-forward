@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className=" nav-bar p-3 mb-2 bg-dark-subtle text-emphasis-dark">
+    <div className=" nav-bar p-3 mb- bg-dark-subtle text-emphasis-dark">
         
         <ul className="nav justify-content-center fs-4">
             <h2 className="pe-5">logo</h2>
