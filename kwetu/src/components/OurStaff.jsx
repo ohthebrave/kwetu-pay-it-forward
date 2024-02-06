@@ -1,8 +1,13 @@
 import React from 'react';
+import '../App.css';
+import img from '../assets/people.jpeg'
+
 
 function OurStaff() {
   return (
-    <div className='staff'>OurStaff</div>
+    <div className='staff'>
+      <img src={img} alt="people" />
+    </div>
   )
 }
 

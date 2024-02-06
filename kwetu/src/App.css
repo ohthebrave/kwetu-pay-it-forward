@@ -11,3 +11,11 @@
   /* border: 2px solid red; */
 }
 
+.staff {
+    max-width: 600px;
+  height: 350px;
+  overflow-y: scroll;
+  background: url(img_5terre.jpg) no-repeat;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient (black, transparent);
+}
