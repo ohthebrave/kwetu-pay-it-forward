@@ -22,7 +22,7 @@
 .about-us{
   /* border: 2px solid red; */
   background: url('./assets/one.avif') no-repeat;
-  height: 90vh;
+  height: 98vh;
   background-size: cover;
   background-position: center;
 }
