@@ -1,29 +1,29 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
+import './nav.css'
 
 function NavBar() {
   return (
-    <div className=" nav-bar p-3 mb- bg-dark-subtle text-emphasis-dark">
-        
-        <ul className="nav justify-content-center fs-4">
-            <h2 className="pe-5">logo</h2>
-            <li className="nav-item ps-5">
-              <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
-            </li>
-            <li className="nav-item dropdown">
-                <a className="nav-link" href="#">What We Do</a>
-                <div className="dropdown-content">
-                    <NavLink to="/mission">Our Mission</NavLink>
-                    <NavLink to="/vision">Our Vision</NavLink>
-                </div>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/our-staff">Our Staff</NavLink>
-            </li>
-            <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
-            </li>
+    <div className="header">
+      <div className="logo">
+        <p>Kwetu-pay</p>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/'>Home</NavLink>
+          </li>
+          <li>
+            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/'>What We Do</NavLink>
+          </li>
+          <li>
+            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/our-staff'>Our Staff</NavLink>
+          </li>
+          <li>
+            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/about'>About Us</NavLink>
+          </li>
         </ul>
+      </nav>
     </div>
   );
 }

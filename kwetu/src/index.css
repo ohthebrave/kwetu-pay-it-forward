@@ -43,6 +43,10 @@
   /* border: 2px solid red; */
   color: black;
 }
+.nav-bar {
+  border: 2px solid red;
+  background-color: transparent;
+}
 
 .card {
   border: 2px solid red;
