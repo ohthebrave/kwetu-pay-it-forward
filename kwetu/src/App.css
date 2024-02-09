@@ -21,14 +21,14 @@
 }
 .about-us{
   /* border: 2px solid red; */
-  background: url('./assets/SS_14.jpeg') no-repeat;
-  height: 100vh;
+  background: url('./assets/one.avif') no-repeat;
+  height: 90vh;
   background-size: cover;
   background-position: center;
 }
 
-.about-img-bg img{
-  height: 50vh;
-  width: 100%;
-  object-fit: cover;
+
+
+.home{
+  border: 2px solid red;
 }

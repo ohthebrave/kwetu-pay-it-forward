@@ -11,16 +11,16 @@ function NavBar() {
       <nav>
         <ul>
           <li>
-            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/'>Home</NavLink>
+            <NavLink className='bar text-decoration-none fw-light' to='/'>Home</NavLink>
           </li>
           <li>
-            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/'>What We Do</NavLink>
+            <NavLink className='bar text-decoration-none fw-light' to='/'>What We Do</NavLink>
           </li>
           <li>
-            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/our-staff'>Our Staff</NavLink>
+            <NavLink className='bar text-decoration-none fw-light' to='/our-staff'>Our Staff</NavLink>
           </li>
           <li>
-            <NavLink className='bar text-dark text-decoration-none fw-semibold' to='/about'>About Us</NavLink>
+            <NavLink className='bar text-decoration-none fw-light' to='/about'>About Us</NavLink>
           </li>
         </ul>
       </nav>
