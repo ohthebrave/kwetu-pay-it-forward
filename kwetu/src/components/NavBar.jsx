@@ -6,9 +6,9 @@ function NavBar() {
   return (
     <div className="menu-bar">
       <h1 className="logo">Kwetu-pay</h1>
-      <ul>
+      <ul className="bar-1">
           <li>
-            <NavLink className="bar text-decoration-none fw-light" to="/">
+            <NavLink className="bar text-decoration-none" to="/">
               Home
             </NavLink>
           </li>
@@ -16,21 +16,21 @@ function NavBar() {
             <a href="#" className="bar text-decoration-none">What We Do</a>
             <div className="dropdown-menu">
               <ul>
-                <li><NavLink to="/mission" className="bar text-decoration-none">Our Mission</NavLink></li>
-                <li><NavLink to="/vision" className="bar text-decoration-none">Our Vision</NavLink></li>
+                <li><NavLink to="/mission" className="bar-2 text-decoration-none">Our Mission</NavLink></li>
+                <li><NavLink to="/vision" className="bar-2 text-decoration-none">Our Vision</NavLink></li>
               </ul>
             </div>
           </li>
           <li>
             <NavLink
-              className="bar text-decoration-none fw-light"
+              className="bar text-decoration-none"
               to="/our-staff"
             >
               Our Staff
             </NavLink>
           </li>
           <li>
-            <NavLink className="bar text-decoration-none fw-light" to="/about">
+            <NavLink className="bar text-decoration-none" to="/about">
               About Us
             </NavLink>
           </li>

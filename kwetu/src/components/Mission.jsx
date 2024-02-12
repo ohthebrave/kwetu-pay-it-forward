@@ -1,9 +1,12 @@
 import React from "react";
 import '../App.css';
+import NavBar from "./NavBar";
 
 function Mission() {
   return (
-    <div className="mission-content text-center">
+    <div>
+      <NavBar/>
+      <div className="mission-content text-center">
       <h1 className=" mission">Our Mission</h1>
       <p className="fw-light fs-4 pb-5">To inspire and revolutionize young minds, setting in them a firm intellectual and <br/>innovative foundation, which will allow them the best versions of themselves.</p>
       <div>
@@ -36,6 +39,7 @@ function Mission() {
           accessible on our website.
         </p>
       </div>
+    </div>
     </div>
   );
 }

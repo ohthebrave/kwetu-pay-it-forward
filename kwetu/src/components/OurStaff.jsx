@@ -1,12 +1,15 @@
 import React from 'react';
-import '../App.css';
+import NavBar from './NavBar';
 
 
 
 function OurStaff() {
   return (
-    <div className='staff'>
-      {/* <img src={img} alt="people" /> */}
+    <div className=''>
+      <NavBar/>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsa iure earum quisquam necessitatibus, fugit numquam! Rerum odio itaque odit dolor! Consequatur ullam veritatis numquam cum! Quidem quisquam nulla aliquam?</p>
+      </div>
     </div>
   )
 }

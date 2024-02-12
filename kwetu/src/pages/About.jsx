@@ -43,7 +43,7 @@ function About() {
           </div>
         </div>
         {/* rows for flip-card  */}
-        <div className="row align-items-center">
+        <div className="row align-items-center flipo">
           <div className="col flip-card m-1">
             <div className="flip-card-inner">
               <div className="flip-card-front">

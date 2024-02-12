@@ -12,7 +12,7 @@
 }
 
 .staff {
-    max-width: 600px;
+  max-width: 600px;
   height: 350px;
   overflow-y: scroll;
   background: url(img_5terre.jpg) no-repeat;
@@ -20,9 +20,25 @@
   mask-image: linear-gradient (black, transparent);
 }
 
+.home-content {
+  /* border: 2px solid red; */
+  background: url("./assets/img5.jpeg") no-repeat;
+  height: 48vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom-right-radius: 30% 10%;
+  border-bottom-left-radius: 30% 10%;
+}
 
+.home {
+  background-color: rgb(241, 207, 69);
+  text-align: center;
+  font-size: 40px;
+  height: 60vh;
+}
 
-
-.home{
-  border: 2px solid red;
+.home p {
+  padding: 40px;
+  color: white;
+  font-family: Arial Narrow, sans-serif;
 }
