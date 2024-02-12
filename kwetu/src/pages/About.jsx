@@ -26,7 +26,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="row align-items-center para mb-5">
+        <div className="row align-items-center para mb-3">
           <div className="col">
             <p className="about-paragraph">
               Economic Development, Education, Health, Spiritual Development, &

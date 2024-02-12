@@ -4,24 +4,23 @@ import "./nav.css";
 
 function NavBar() {
   return (
-    <div className="header">
-      <div className="logo">
-        <p>Kwetu-pay</p>
-      </div>
-      <nav>
-        <ul>
+    <div className="menu-bar">
+      <h1 className="logo">Kwetu-pay</h1>
+      <ul>
           <li>
             <NavLink className="bar text-decoration-none fw-light" to="/">
               Home
             </NavLink>
           </li>
-          <li className="nav-item dropdown">
-                <a className="nav-link drop" href="#">What We Do</a>
-                <div className="dropdown-content">
-                    <NavLink to="/mission">Our Mission</NavLink>
-                    <NavLink to="/vision">Our Vision</NavLink>
-                </div>
-            </li>
+          <li>
+            <a href="#" className="bar text-decoration-none">What We Do</a>
+            <div className="dropdown-menu">
+              <ul>
+                <li><NavLink to="/mission" className="bar text-decoration-none">Our Mission</NavLink></li>
+                <li><NavLink to="/vision" className="bar text-decoration-none">Our Vision</NavLink></li>
+              </ul>
+            </div>
+          </li>
           <li>
             <NavLink
               className="bar text-decoration-none fw-light"
@@ -36,7 +35,6 @@ function NavBar() {
             </NavLink>
           </li>
         </ul>
-      </nav>
     </div>
   );
 }

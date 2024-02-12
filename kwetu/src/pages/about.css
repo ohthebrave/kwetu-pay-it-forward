@@ -6,6 +6,14 @@
   align-items: center;
   position: relative;
 }
+
+.about-us{
+  /* border: 2px solid red; */
+  background: url('../assets/one.avif') no-repeat;
+  height: 98vh;
+  background-size: cover;
+  background-position: center;
+}
 .word {
   position: absolute;
   top: 50%; /* Position 50% from the top */
