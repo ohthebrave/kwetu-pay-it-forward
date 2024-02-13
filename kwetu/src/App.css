@@ -7,17 +7,27 @@
 .mission {
   margin-left: auto;
   margin-bottom: 60px;
-  margin-top: 15%;
+  margin-top: 5%;
   /* border: 2px solid red; */
 }
 
 .staff {
-  max-width: 600px;
-  height: 350px;
-  overflow-y: scroll;
-  background: url(img_5terre.jpg) no-repeat;
-  -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient (black, transparent);
+  /* border: 2px solid red; */
+  background: url('./assets/world-1.png') no-repeat;
+  height: 94vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.staff p{
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%); 
+  transform: translateX(20%); 
+  text-align: center;
+  font-size: 55px;
+  color: rgb(234, 151, 103);
+  font-family: Cursive, Brush Script MT;
 }
 
 .home-content {
@@ -42,3 +52,19 @@
   color: white;
   font-family: Arial Narrow, sans-serif;
 }
+
+.mission-bg{
+  /* border: 2px solid red; */
+  background: url('./assets/forest.avif') no-repeat;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.founders img{
+  object-fit: cover;
+  height: 60%;
+  border-radius: 99%;
+}
+

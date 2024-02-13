@@ -4,6 +4,7 @@ import "../App.css";
 import Carousel from "./Carousel";
 import Cards from "./Cards.jsx";
 
+
 function Home() {
   return (
     <section>
