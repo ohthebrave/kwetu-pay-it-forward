@@ -1,16 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./nav.css";
-import logo from "../assets/logo2.png"
+import logo4 from "../assets/logo2.png"
 
 function NavBar() {
   return (
     <div className="menu-bar">
-      <div className="logo-start">
-      <NavLink to="/"><img src={logo} className="logo"/></NavLink>
-      <p>Kwetu Foundation</p>
-      </div>
-     
+      <img src={logo4} className="logo-start"/>
       <ul className="bar-1">
           <li>
             <NavLink className="bar text-decoration-none" to="/">

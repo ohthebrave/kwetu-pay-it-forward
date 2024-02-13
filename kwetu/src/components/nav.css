@@ -1,17 +1,29 @@
 .logo {
+  /* width: 10%;
+  height:100%; */
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  
+}
+
+.head{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo-start{
   width: 10%;
   height:100%;
-
-}
-.logo-start{
-  display: flex;
+  color: white;
 }
 
 .menu-bar {
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0 5%;
   position: relative;
