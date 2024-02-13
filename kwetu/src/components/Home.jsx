@@ -2,10 +2,11 @@ import React from "react";
 import NavBar from "./NavBar";
 import "../App.css";
 
+
 function Home() {
   return (
     <section>
-      <div className="home">
+      <div className="home7">
         <div className="home-content">
           <NavBar />
         </div>
